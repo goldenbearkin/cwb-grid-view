@@ -1,0 +1,182 @@
+<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>cwb-grid-view Demo</title>
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../../paper-card/paper-card.html">
+    <link rel="import" href="../cwb-grid-view.html">
+
+    <link rel="import" href="../../paper-styles/color.html">
+
+    <link rel="stylesheet" href="../../paper-styles/demo.css">
+
+
+    <style is="custom-style">
+      paper-card {
+        /*width: 100%;*/
+        /*margin-bottom: 16px;*/
+
+        /*display: block;*/
+        /*position: relative;*/
+        @apply(--shadow-elevation-2dp);
+      }
+
+      .avatar {
+        display: inline-block;
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+        background: var(--paper-pink-500);
+        color: white;
+        line-height: 64px;
+        font-size: 30px;
+        text-align: center;
+      }
+      .fancy .title {
+        position: absolute;
+        top: 30px;
+        left: 100px;
+        color: var(--paper-indigo-500);
+      }
+      .fancy img {
+        width: 100%;
+      }
+      .fancy .big {
+        font-size: 22px;
+        padding: 8px 0 16px;
+        color: var(--google-grey-500);
+      }
+      .fancy .medium {
+        font-size: 16px;
+        padding-bottom: 8px;
+      }
+      .pink {
+        --paper-card-header-color: var(--paper-pink-500);
+      }
+    </style>
+  </head>
+  <body>
+  <cwb-grid-view>
+    <paper-card class='fancy'>
+      <div class="card-content">
+        <div class="avatar">:)</div>
+        <div class="title">
+          <div class="medium">Title</div>
+          <div class="small">subtitle</div>
+        </div>
+      </div>
+
+      <!-- take this out of the content class so that it can span the whole card -->
+      <img src="http://placehold.it/350x150">
+
+      <div class="card-content">
+        <div class="big">Usu eu novum principes, vel quodsi aliquip ea.</div>
+        <div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+        <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div>
+      </div>
+    </paper-card>
+    <paper-card class='fancy'>
+      <div class="card-content">
+        <div class="avatar">:)</div>
+        <div class="title">
+          <div class="medium">Title</div>
+          <div class="small">subtitle</div>
+        </div>
+      </div>
+
+      <!-- take this out of the content class so that it can span the whole card -->
+      <img src="http://placehold.it/350x150">
+
+      <div class="card-content">
+        <div class="big">Usu eu novum principes, vel quodsi aliquip ea.</div>
+        <div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+        <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div>
+      </div>
+    </paper-card>
+    <paper-card class='fancy'>
+      <div class="card-content">
+        <div class="avatar">:)</div>
+        <div class="title">
+          <div class="medium">Title</div>
+          <div class="small">subtitle</div>
+        </div>
+      </div>
+
+      <!-- take this out of the content class so that it can span the whole card -->
+      <img src="http://placehold.it/350x150">
+
+      <div class="card-content">
+        <div class="big">Usu eu novum principes, vel quodsi aliquip ea.</div>
+        <div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+        <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div>
+      </div>
+    </paper-card>
+    <paper-card class='fancy'>
+      <div class="card-content">
+        <div class="avatar">:)</div>
+        <div class="title">
+          <div class="medium">Title</div>
+          <div class="small">subtitle</div>
+        </div>
+      </div>
+
+      <!-- take this out of the content class so that it can span the whole card -->
+      <img src="http://placehold.it/350x150">
+
+      <div class="card-content">
+        <div class="big">Usu eu novum principes, vel quodsi aliquip ea.</div>
+        <div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+        <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div>
+      </div>
+    </paper-card>
+    <paper-card class='fancy'>
+      <div class="card-content">
+        <div class="avatar">:)</div>
+        <div class="title">
+          <div class="medium">Title</div>
+          <div class="small">subtitle</div>
+        </div>
+      </div>
+
+      <!-- take this out of the content class so that it can span the whole card -->
+      <img src="http://placehold.it/350x150">
+
+      <div class="card-content">
+        <div class="big">Usu eu novum principes, vel quodsi aliquip ea.</div>
+        <div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+        <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div>
+      </div>
+    </paper-card>
+    <paper-card class='fancy'>
+      <div class="card-content">
+        <div class="avatar">:)</div>
+        <div class="title">
+          <div class="medium">Title</div>
+          <div class="small">subtitle</div>
+        </div>
+      </div>
+
+      <!-- take this out of the content class so that it can span the whole card -->
+      <img src="http://placehold.it/350x150">
+
+      <div class="card-content">
+        <div class="big">Usu eu novum principes, vel quodsi aliquip ea.</div>
+        <div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+        <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div>
+      </div>
+    </paper-card>
+  </cwb-grid-view>
+
+  </body>
+</html>

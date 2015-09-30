@@ -1,0 +1,16 @@
+{
+  "name": "cwb-grid-view",
+  "version": "0.0.1",
+  "authors": [
+    "Jason Hui <huihangkin@gmail.com>"
+  ],
+  "dependencies": {
+    "polymer": "polymer/polymer#^1.0.0",
+    "iron-flex-layout": "polymerelements/iron-flex-layout#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*",
+    "paper-card": "PolymerElements/paper-card#~1.0.5"
+  }
+}
