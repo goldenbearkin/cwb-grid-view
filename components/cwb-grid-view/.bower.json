@@ -1,0 +1,26 @@
+{
+  "name": "cwb-grid-view",
+  "authors": [
+    "Jason Hui <huihangkin@gmail.com>"
+  ],
+  "dependencies": {
+    "polymer": "polymer/polymer#^1.0.0",
+    "iron-flex-layout": "polymerelements/iron-flex-layout#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*",
+    "paper-card": "PolymerElements/paper-card#~1.0.5"
+  },
+  "homepage": "https://github.com/goldenbearkin/cwb-grid-view",
+  "_release": "1f316b2a63",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1f316b2a636c5a1dc0802bf215f4034097824d3b"
+  },
+  "_source": "git://github.com/goldenbearkin/cwb-grid-view.git",
+  "_target": "master",
+  "_originalSource": "goldenbearkin/cwb-grid-view",
+  "_direct": true
+}
